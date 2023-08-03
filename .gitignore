@@ -1,0 +1,5 @@
+# Ignore Terraform temporary build files
+.terraform.lock.hcl
+
+# Ignore all content in Terraform's hidden .terraform dir
+.terraform
