@@ -17,6 +17,13 @@ resource "aws_security_group" "project8-stack-sg" {
     cidr_blocks = [var.MYIP]
   }
 
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = [var.MYIP]
+  }
+
   tags = {
     Name = "project8-sg"
   }
