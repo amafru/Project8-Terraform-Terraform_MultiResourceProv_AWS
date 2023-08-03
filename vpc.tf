@@ -83,7 +83,7 @@ resource "aws_internet_gateway" "project8-igw" {
 
 //Create route table
 resource "aws_route_table" "project8-RT" {
-  vpc_id = aws_vpc.project8-vpc.id 
+  vpc_id = aws_vpc.project8-vpc.id
 
   route {
     cidr_block = "0.0.0.0/0"

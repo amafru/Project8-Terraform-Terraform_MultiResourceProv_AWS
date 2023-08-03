@@ -1,6 +1,6 @@
 resource "aws_security_group" "project8-stack-sg" {
   vpc_id      = aws_vpc.project8-vpc.id
-  name = "proj-8-sg"
+  name        = "proj-8-sg"
   description = "project8 SG. Allow ssh from my IP"
 
   egress {
