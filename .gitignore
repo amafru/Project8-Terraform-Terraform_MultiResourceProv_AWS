@@ -3,3 +3,7 @@
 
 # Ignore all content in Terraform's hidden .terraform dir
 .terraform
+
+# Ignore my secret keys
+project8-terraform-key
+project8-terraform-key.pub
